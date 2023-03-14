@@ -12,7 +12,7 @@ const Footer = () => {
         justifyContent: 'center',
         padding: '15px'
     }}>
-        <p style={{textAlign: 'center',color:'white',marginTop:'25px'}}>Copywriting 2023  @Irfndmlptra_</p><br />
+        <p style={{textAlign: 'center',color:'white'}}>Copywriting 2023  @Irfndmlptra_</p><br />
     </footer> 
   );
 }
