@@ -6,7 +6,7 @@ function Cardjurusan(props) {
       <Card.Img variant="top" src={props.Image} />
       <Card.Body>
         <Card.Title>{props.Title}</Card.Title>
-        <Card.Text>{props.Text}</Card.Text>
+        <Card.Text>{props.Description}</Card.Text>
         <Button variant="primary">Lihat</Button>
       </Card.Body>
     </Card>
