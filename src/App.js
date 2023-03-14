@@ -1,18 +1,10 @@
-import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 import './App.css';
-import About from './Pages/About';
-import Home from './Pages/Home';
-import NotFound from './Pages/NotFound';
+import Navigation from './Components/Navigation';
 
-const App = () => {
+
+function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='*' element={<NotFound />} />
-      </Routes>
-    </Router>
+    <Navigation/>
   );
 }
 
