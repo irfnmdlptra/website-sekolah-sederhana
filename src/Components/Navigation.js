@@ -1,7 +1,9 @@
+import {Navbar, Container, Nav, NavDropdown, Form, Button} from 'react-bootstrap'
+
 const Navigation = () => {
   return (
-    <Navbar bg="light" expand="lg">
-      <Container fluid>
+    <Navbar bg="dark" variant="dark" expand="lg">
+      <Container>
         <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -20,7 +22,7 @@ const Navigation = () => {
           </Nav>
           <Form className="d-flex">
             <Form.Control type="search" placeholder="Search" className="me-2" aria-label="Search" />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="primary">Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>

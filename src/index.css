@@ -12,11 +12,6 @@ code {
     monospace;
 }
 
-img{
-  box-shadow: 0.4rem 0.4rem 1rem #111, -0.4rem -0.4rem 1rem #333;
-  border-radius: 50%; transition: 0.5s;
-  transition-property: box-shadow;
-}
 .kotak{
   width: 20px;height: 20px;border-radius: 50%;
 }
