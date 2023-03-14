@@ -7,7 +7,10 @@ const Footer = () => {
         right: '0',
         height: '55px',
         marginTop: '3rem',
-        background: '#212529'
+        background: '#212529',
+        display: 'flex',
+        justifyContent: 'center',
+        padding: '15px'
     }}>
         <p style={{textAlign: 'center',color:'white',marginTop:'25px'}}>Copywriting 2023  @Irfndmlptra_</p><br />
     </footer> 
