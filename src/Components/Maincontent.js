@@ -7,7 +7,7 @@ const Maincontent = () => {
     <>
       <Hero />
       <div className="container">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center "  id="about">
           <div className="col-12 text-center py-5">
             <h1>Jurusan Sekolah</h1>
           </div>
@@ -25,8 +25,8 @@ const Maincontent = () => {
             </div>
           </div>
 
-          <div className="row d-flex justify-content-center">
-            <div className="col-12 text-center py-5">
+          <div className="row d-flex justify-content-center" id="portfolio">
+            <div className="col-12 text-center py-5" >
               <h1>Kegiatan Sekolah </h1>
             </div>
 
